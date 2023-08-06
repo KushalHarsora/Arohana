@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200&display=swap");
+
+* {
+  overflow-x: hidden;
+}
+
+/* Main Content CSS Start*/
+
+.mainFooter {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+}
+
+.footerPhoto img {
+  width: 200px;
+  height: 250px;
+  margin-left: 12.5vh;
+}
+
+.mainFooterInside {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background-color: #212121;
+  color: white;
+  height: 65vh;
+  width: 100vw;
+  font-family: "Poppins";
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  align-items: center;
+  gap: 18.5vh;
+  overflow: hidden;
+}
+
+/* Main Name -> Arohana  ==> css Start */
+
+.footerName {
+  margin-left: 5vh;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  width: 22.5vw;
+  height: inherit;
+  /* background-color: antiquewhite; */
+}
+
+.footerName h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 5.5vh;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footerName p {
+  font-size: 2.1vh;
+  text-align: center;
+}
+
+/* Main Name -> Arohana  ==> css End */
+
+/* Main Links -> Arohana ==> css Start */
+
+.footerlinks {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.footerlinks ul {
+  list-style: none;
+}
+
+.footerlinks ul li {
+  padding: 1.2vh;
+}
+
+.footerlinks ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.1vh;
+}
+
+/* Main Links -> Arohana ==> css Start */
+
+/* Line ==> css start */
+
+.footerLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0.75vh;
+}
+
+.footerLine span {
+  width: 90vw;
+  height: 0.25vh;
+  background-color: white;
+}
+
+/* Line ==> css end */
+
+/* Icons ==> css start */
+
+.footerIcons {
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIconsInside {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5vw;
+}
+
+.footerIcons img {
+  height: 40px;
+  width: 40px;
+}
+
+/* Icons ==> css end */
+
+/* Copyright ==> css start */
+
+.footerCopyright {
+  margin-top: 3.5vh;
+}
+
+.footerCopyright p {
+  text-align: center;
+}
+
+/* Copyright ==> css end */
+
+/* Main Content CSS End*/
